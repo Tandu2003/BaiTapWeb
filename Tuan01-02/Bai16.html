@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 16</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+
+    <p><b>* denotes mandotory</b></p>
+
+    <form action="https://www.facebook.com/tandu542003/">
+        <label for="fullName">Full name*: </label> <br>
+        <input type="text" name="fName" id="fullName" size="30" maxlength="30" placeholder="FirstName LastName">
+        <br>
+        <label for="email">Email address*: </label> <br>
+        <input type="text" name="arEmail" id="email" size="30" maxlength="30" placeholder="EMAIL_ADDRESS">
+        <br>
+        <label for="selectTour">Select Tour Package*: </label> <br>
+        <select name="slTour" id="selectTour" style="width: 100px;">
+            <option value="Goa">Hà Nội</option>
+            <option value="Goa">TP. Hồ Chí Minh</option>
+            <option value="Goa">Đà Nẵng</option>
+        </select>
+        <br>
+        <label for="date">Arrival date*: </label><br>
+        <input type="text" name="arrDate" id="date" size="30" maxlength="30" placeholder="m/d/y">
+        <br>
+        <label for="checkBox">What would you want to avail?*</label><br>
+        <label for="broarding">Boarding</label>
+        <input type="checkbox" name="checkBoxbr" id="broarding"> <br>
+        <label for="fooding">Fooding</label>
+        <input type="checkbox" name="checkBoxfd" id="fooding"> <br>
+        <label for="sight">Sight seeing</label>
+        <input type="checkbox" name="checkBoxss" id="sight"> <br>
+        <label for="discount">Discount Coupon code: </label><br>
+        <input type="text" name="txtDiscount" id="discount" size="30" maxlength="30" placeholder="UNKNOWN_TYPE"> <br>
+        <label for="terms">Terms and conditions*</label> <br>
+        <input type="radio" name="rdterm" id="agree">
+        <label for="agree">I agree</label>
+        <input type="radio" name="rdterm" id="disagree">
+        <label for="disagree">I disagree</label>
+        <br>
+        <input type="button" value="Complete reservation">
+    </form>
+</body>
+</html>
