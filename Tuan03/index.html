@@ -6,58 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nguyễn Tấn Dự</title>
     <link rel="icon" href="img/xyz.jpg">
-    <style>
-        .wrapper{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .header{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            width: 100%;
-        }
-        .header-left{
-            display: flex;
-            justify-content: space-around;
-            width: 20%;
-        }
-        .header-right{
-            display: flex;
-            justify-content: space-around;
-            width: 20%;
-        }
-        .banner{
-            width: 1440px;
-            margin: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="header">
-            <div class="header-left">
-                <div>Shop</div>
-                <div>Offers</div>
-                <div>Out story</div>
-                <div>Bug</div>
+    <div id="wapper">
+        <div id="header">
+            <div id="header_first">
+                <ul id="first">
+                    <li class="first_item"><a href="">Shop</a></li>
+                    <li class="first_item"><a href="">Offers</a></li>
+                    <li class="first_item"><a href="">Our story</a></li>
+                    <li class="first_item"><a href="">Blog</a></li>
+                </ul>
             </div>
-            <div class="header-center">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <div class="header-right">
-                    <div>
-                        <input type="search" placeholder="Search product...">
-                    </div>
-                <img src="img/Button 1 (1).png" alt="Giỏ hàng">
-                <img src="img/Button 1.png" alt="Người dùng">
+            <img id="header_logo" src="img/Image 1 (21).png" alt="Logo">
+            <div id="header_last">
+                <div id="search">
+                    <input type="search" name="search" class="in_search text_font14" placeholder=" Search product...">
+                </div>
+                <img id="imgcart" src="img/Button 1 (1).png" alt="Giỏ hàng">
+                <img id="imguser" src="img/Button 1.png" alt="Người dùng">
             </div>
         </div>
-        <div class="banner">
-            <img src="img/banner.png" alt="Ảnh banner">
-            
+        <div id="slider">
+            <img id="slider_img" src="img/Image 1.png" alt="Silder">
+            <div id="slider_content">
+                <h2 id="slider_content-title">Gift for your skin</h2>
+                <p id="slider_content-text">Aliquip fugiat ipsum nostrud ex et eu incididunt quis minim dolore excepteur voluptate</p>
+            </div>
+        </div>
+        <div id="container">
+            <div id="container_subnav">
+                <div id="subnav">
+                    <ul id="subnav_first">
+                        <li class="subnav-item"><a href="">All product</a></li>
+                        <li class="subnav-item"><a href="">Face</a></li>
+                        <li class="subnav-item"><a href="">Body</a></li>
+                    </ul>
+                    <div id="subnav_search">
+                        <div id="container_search">
+                            <input type="search" name="search" class="in_search text-font14" placeholder="Search product...">
+                        </div>
+                        <div id="subnav_sort">
+                            <a href="" id="subnav_sort-text">Sort by</a>
+                        </div>
+                    </div>
+                </div>
+            </di->
         </div>
     </div>
+    
 </body>
 </html>
