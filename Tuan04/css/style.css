@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+.cham_3_cham {
+    height: 28px;
+    align-items: center;
+    font-weight: 700;
+    color: grey;
+
+}
+
+#center {
+    border: 2px solid #EEE9E9;
+    padding-top: 42px;
+    width: 910px;
+}
+
+#left {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 32px;
+    margin-top: 50px;
+}
+
+#setting {
+    margin-top: 36px;
+}
+
+.center_meeting {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.meeting_body_2 {
+    display: flex;
+    width: 92px;
+    height: 38px;
+    border: 1px solid #DC143C;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.meeting_body_2_ro {
+    margin-top: 12px;
+    margin-right: 8px;
+    width: 10px;
+    height: 10px;
+    background-color: #DC143C;
+    border-radius: 50%;
+}
+
+.meeting_body_2_time {
+    color: #DC143C;
+    margin-top: 8px;
+}
+
+
+.center_time {
+    padding-top: 18px;
+    display: flex;
+    padding-left: 40px;
+    padding-bottom: 38px;
+}
+
+.center_time_conten {
+    margin-right: 20px;
+}
+
+.center_time_conten_all {
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    width: 80px;
+    height: 28px;
+    border-radius: 40px;
+    color: white;
+    background-color: #DC143C;
+}
+
+.center_time_conten_ip img {
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+}
+
+.center_time_conten_all_2 {
+    display: flex;
+}
+
+.center_time_conten_L img {
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.center_time_conten_2p {
+    padding-top: 4px;
+}
+
+.center_time_conten_ip p {
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+
+.meeting_body_2 {
+    width: 90px;
+    height: 40px;
+}
+
+.img {
+    text-align: center;
+}
+
+.img_big_all_center {
+    position: relative;
+}
+
+.img_center {
+    position: absolute;
+    top: 12px;
+    width: 910px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.img_content_ro {
+    width: 8px;
+    height: 8px;
+    background-color: springgreen;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.img_content_all {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 4px;
+    width: 160px;
+    height: 40px;
+    background-color: grey;
+    text-align: center;
+    color: whitesmoke;
+    padding: 11px 0px;
+}
+
+.img_3 {
+    margin-top: 24px;
+    padding: 0px 28px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_3_all {
+    position: relative;
+}
+
+.img_3_all_p {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: 112px;
+    height: 24px;
+    background-color: grey;
+    border-radius: 4px;
+
+}
+
+.img_3_all_p_full {
+    display: flex;
+    justify-content: space-between;
+    width: 246px;
+}
+
+.img_3_all_p_conten p {
+    padding-left: 12px;
+    padding-top: 4px;
+    color: white;
+    font-size: 13px;
+}
+
+.img33 {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    background-color: oldlace;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.img_7 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 212px;
+
+}
+
+.img_7_7_conten {
+    width: 128px;
+    height: 42px;
+    border-radius: 4px;
+    color: white;
+    background-color: #DC143C;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 18px;
+}
+
+.right_headandcenter {
+    padding-top: 42px;
+    border-bottom: 2px solid #EEE9E9;
+    padding-bottom: 32px;
+}
+
+#right {
+
+    width: 440px;
+
+}
+
+.right_head {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.right_head_conten_hp {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_head_conten_hp p {
+    width: 20px;
+    border-radius: 50%;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 4px;
+    color: #DC143C;
+}
+
+.right_head_conten_p {
+    width: 72px;
+    height: 36px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #DC143C;
+    border-radius: 4px;
+    color: #DC143C;
+}
+
+.right_center {
+    margin-top: 32px;
+}
+
+.right_center_people {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.right_center_people_icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right_center_people_icon_ip {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right_center_people_icon_all {
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+}
+
+.right_center_people_icon_ip p {
+    margin-left: 10px;
+
+}
+
+.right_bottom_mess_icon {
+    width: 100px;
+    height: 56px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.right_bottom_mes {
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    width: 100px;
+    margin-left: 80px;
+}
+
+.time_112 {
+    color: #9C9C9C;
+    font-size: 13px;
+}
+
+.right_bottom {
+    padding-top: 38px;
+
+}
+
+.right_bottom_chat {
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.right_bottom_ps {
+    display: inline-flex;
+    padding-left: 30px;
+    margin-top: 28px;
+}
+
+.right_bottom_mess {
+    margin-right: 0px;
+    width: 336px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    margin-left: 80px;
+    padding: 0px 18px;
+    border-radius: 4px;
+}
+
+.right_bottom_ps_in p {
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 16px;
+
+}
+
+.right_bottom_ip {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.right_bottom_ip_conten input {
+    height: 44px;
+    width: 326px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
