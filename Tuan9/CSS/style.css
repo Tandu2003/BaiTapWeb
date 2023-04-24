@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+}
+
+.breadcrumb {
+    padding: 20px 10px;
+    background-color: #fff;
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: 1px #000 solid;
+    border-top: 1px #000 solid;
+    list-style: none;
+}
+
+.breadcrumb>.active {
+    color: #000;
+}
+
+.information {
+    text-align: center;
+    padding: 50px;
+    border-bottom: 1px #000 solid;
+    border-top: 1px #000 solid;
+}
+
+.danger {
+    color: red;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
